@@ -6,7 +6,8 @@ Created by: Quetzi Hack
 # INSTALACIÓN
 
 chmod 711 NgrokInstaller.sh
-bash NgrokInstaller.sh
+bash NgrokInstaller.sh 
+
 
 # USO
 
