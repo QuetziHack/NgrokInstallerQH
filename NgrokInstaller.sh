@@ -1,7 +1,8 @@
-#!bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 #
 # Created by: Quetzi Hack
-# Instalador simple de Ngrok
+# Instalador sencillo de Ngrok
 #
 
 source Colores.sh
@@ -63,6 +64,7 @@ ${morado}█ [${blanco}2${morado}] ┃  ${blanco}NO  ${morado}█"
 		1)
 			echo ""
 			echo -e "${morado}Eliminando versiones antiguas de ngrok..."
+			rm $PREFIX/bin/ngrok > /dev/null 2>&1
 			rm ngrok-stable-linux-arm.zip > /dev/null 2>&1
 			rm ngrok > /dev/null 2>&1
 			sleep 1
