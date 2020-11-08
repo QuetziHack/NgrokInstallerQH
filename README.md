@@ -1,4 +1,4 @@
-# NgrokIntallerQH
+# NgrokInstallerQH
 
 Instalador simple de Ngrok en plataformas Linux tipo ARM (también Termux)
 Created by: Quetzi Hack
