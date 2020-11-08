@@ -5,6 +5,7 @@ Created by: Quetzi Hack
 
 # INSTALACIÓN
 
+git clone https://github.com/QuetziHack/NgrokInstallerQH
 chmod 711 NgrokInstaller.sh
 bash NgrokInstaller.sh 
 
